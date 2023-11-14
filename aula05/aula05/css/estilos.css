@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+header {
+    text-align: center;
+    background: #0D083B;
+    color: #bebadb;
+}
+
+header h1 {
+    font-size: 2em;
+    padding: 1em 0 0 0;
+}
+
+header p {
+    font-size: 1.5em;
+    padding: 0.5em 0 1em 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid #FFF;
+}
+
+nav a {
+    color: #FFF;
+    padding: 1em;
+    width: 100%;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background: #FFF;
+    color: #0D083B;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+section {
+    flex: 50%;
+    padding: 1em;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+section h2 {
+    font-weight: bold;
+    font-size: 1.8em;
+    padding: 1em 0;
+}
+
+section h3 {
+    font-size: 1.6em;
+    padding: 0.5em 0;
+}
+
+section p {
+    line-height: 1.5em;
+}
+
+section .title {
+    flex: 100%;
+}
+
+article {
+    padding: 0.5em;
+    flex: 50%;
+}
+
+article img {
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16/9;
+}
+
+article a {
+    display: block;
+    text-align: center;
+    background: #0D083B;
+    color: #bebadb;
+    padding: 1.2em;
+    text-decoration: none;
+}
+
+article a:hover {
+    background: #bebadb;
+    color: #0D083B;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.5em;
+    padding: 2em;
+    background: #0D083B;
+    color: #bebadb;
+}
+

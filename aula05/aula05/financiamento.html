@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Financiamente</title>
+
+    <!-- ARQUIVOS CSS: -->
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/estilos.css">
+
+</head>
+<body>
+    
+    <header>
+        <h1>Os melhores carros de 2023</h1>
+        <p>Aqui você encontra o seu próximo carro</p>
+
+        <nav>
+            <a href="index.html">Início</a>
+            <a href="financiamento.html">Financiamento</a>
+            <a href="http://www.pecasdecarro.com.br/" target="_blank">Peças</a>
+            <a href="#">Serviços</a>
+            <a href="#">Calculador de consumo</a>
+        </nav>
+    </header>
+
+    <main>
+    
+        <h2>Financiamento</h2>
+
+        <section>
+
+            <article>
+                <h3>Calcule o seu financiamento</h3>
+
+                <form action="#" method="post">
+
+                    <label for="nome">Nome</label>
+                    <input type="text" name="nome" id="nome" value=""> 
+                    
+                    <br><br>
+                    
+                    <label for="cpf">CPF</label>
+                    <input type="text" name="cpf">
+                    
+                    <br><br>
+                    
+                    <label for="modelo">Modelo</label>
+                    <select name="modelo">
+                        <option value="type-r">Honda Civic Type R</option>
+                        <option value="corolla-gr">Toyota Corolla GR</option>
+                        <option value="s-2000">Honda S-2000</option>
+                    </select>
+                    
+                    <br><br>
+                    
+                    <label for="parcelas">Parcelas</label> <br>
+                    
+                    <label for="12">12 vezes</label>
+                    <input type="radio" name="parcelas" id="12">
+                    
+                    <label for="24">24 vezes</label>
+                    <input type="radio" name="parcelas" id="24">
+                    
+                    <label for="36">36 vezes</label>
+                    <input type="radio" name="parcelas" id="36">
+                    
+                    <br><br>
+
+                    <input type="submit" value="Calcular financiamento!">
+
+                </form>
+
+            </article>
+
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Desenvolvido por SENAI </p>
+    </footer>
+
+</body>
+</html>
